@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 0.1rem solid #ccc;
+}
+.nav .logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+.nav .list a {
+  color: rgba(0, 0, 0, 0.65);
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+}
+.nav .list a:hover {
+  color: rgb(0, 204, 180);
+}
+
+.home .banner1 {
+  height: 600px;
+  background: url("../images/banner1.jpg") no-repeat center;
+  background-size: cover;
+}
+.home .banner2 {
+  height: 600px;
+  background: url("../images/banner2.jpg") no-repeat center;
+  background-size: cover;
+}
+.home .banner3 {
+  height: 600px;
+  background: url("../images/banner3.jpg") no-repeat center;
+  background-size: cover;
+}
+.home .solgen {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  flex-direction: column;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+}
+.home .solgen span {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.main {
+  padding: 10rem 3rem;
+  min-height: 500px;
+}
+.main .box {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.main .box .title {
+  text-align: center;
+  color: rgb(0, 204, 180);
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.main .box .notLogin {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.main .box .notLogin h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 2rem;
+}
+.main .box .innsBox {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 350px;
+  margin-bottom: 5rem;
+}
+.main .box .innsBox .ins {
+  width: 25%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+.main .box .innsBox .ins img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s;
+}
+.main .box .innsBox .ins img:hover {
+  transform: scale(1.2);
+}
+.main .box .innsBox .ins .insinfo {
+  position: absolute;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.main .box .cardBox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.main .box .cardBox .card {
+  width: 26rem;
+  margin: 2rem;
+  border: none;
+}
+.main .box .cardBox .card .pic {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.main .box .cardBox .card .pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.3s;
+}
+.main .box .cardBox .card .pic img:hover {
+  transform: scale(1.2);
+}
+.main .box .cardBox .card .ctitle {
+  font-size: 2.4rem;
+  margin: 1rem 0 0.5rem 0;
+}
+.main .box .cardBox .card .instructor,
+.main .box .cardBox .card .student {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+.main .box .cardBox .card .price {
+  font-size: 2rem;
+  color: #666;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+.main .box .info {
+  width: 100%;
+  padding: 2rem;
+  background: #eee;
+  margin-bottom: 3rem;
+}
+.main .box .info__text {
+  font-size: 1.8rem;
+}
+
+.box2 {
+  width: 100%;
+  background: #f1f3f5;
+}
+.box2 .box2Wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.box2 .box2Wrap .text {
+  width: 50%;
+  padding: 5rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.box2 .box2Wrap .text .textone {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.box2 .box2Wrap .text .line {
+  width: 5rem;
+  height: 0.5rem;
+  background: rgb(0, 204, 180);
+  margin: 3rem 0 2rem 0;
+}
+.box2 .box2Wrap .text .text2 {
+  font-size: 1.4rem;
+  max-width: 500px;
+}
+.box2 .box2Wrap .rightImg {
+  width: 50%;
+}
+.box2 .box2Wrap .rightImg img {
+  width: 100%;
+}
+
+.topImg {
+  width: 100%;
+  height: 300px;
+  background: #ccc;
+}
+
+.registerImg {
+  background: url("../images/register.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.loginImg {
+  background: url("../images/login.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.courseImg {
+  background: url("../images/course.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.profileImg {
+  background: url("../images/profile.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.postImg {
+  background: url("../images/post.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.footer {
+  background: rgb(0, 37, 51);
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}/*# sourceMappingURL=style.css.map */
