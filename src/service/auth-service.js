@@ -1,5 +1,10 @@
 import axios from 'axios'
-const API_URL = "http://127.0.0.1:8080/api/user"
+
+
+//local url
+// const API_URL = "http://127.0.0.1:8080/api/user"
+//server url
+const API_URL = "https://courseserver-jxx6.onrender.com/api/user"
 
 class AuthService {
 

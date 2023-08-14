@@ -15,7 +15,11 @@ const App = () => {
 
 
   let [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser())
-  let API_URL = "http://127.0.0.1:8080/"
+  //local url
+  // let API_URL = "http://127.0.0.1:8080/"
+  //server url
+  let API_URL = "https://courseserver-jxx6.onrender.com/"
+
   console.log(currentUser)
 
   return (

@@ -1,7 +1,12 @@
 import axios from 'axios'
 
-const API_URL = 'http://127.0.0.1:8080/api/course'
-const API_URLFILTER = 'http://127.0.0.1:8080/api/filterCourse'
+//local url
+// const API_URL = 'http://127.0.0.1:8080/api/course'
+// const API_URLFILTER = 'http://127.0.0.1:8080/api/filterCourse'
+// //server url
+const API_URL = 'https://courseserver-jxx6.onrender.com/api/course'
+const API_URLFILTER = 'https://courseserver-jxx6.onrender.com/api/filterCourse'
+
 
 
 class CourseService {
