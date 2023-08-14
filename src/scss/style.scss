@@ -99,7 +99,7 @@ html {
         }
         .innsBox {
             margin: 0 auto;
-            width: 90%;
+            width: 100%;
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
@@ -107,8 +107,9 @@ html {
             margin-bottom: 5rem;
 
             .ins {
-                width: 25%;
-                height: 350px;
+                width: 25rem;
+                height: 300px;
+                margin: 2rem;
                 position: relative;
                 overflow: hidden;
                 img {
@@ -189,6 +190,11 @@ html {
 .box2 {
     width: 100%;
     background: #f1f3f5;
+    .boxWrap {
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
     .box2Wrap {
         max-width: 1200px;
         margin: 0 auto;

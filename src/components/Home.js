@@ -40,7 +40,10 @@ const Home = ({ API_URL }) => {
                             在線上學習平台找到適合你自學的方式，迎接新改變！</span>
                     </div>
                 </div>
-                <div className="main">
+
+
+
+                <div className="main ">
                     <div className="box">
                         <div className="title">熱門講師</div>
                         <div className="innsBox">
@@ -58,6 +61,11 @@ const Home = ({ API_URL }) => {
 
 
                         </div>
+                    </div>
+
+
+
+                    <div className='box'>
                         <div className="title">精選課程</div>
                         <div className="cardBox">
                             {
