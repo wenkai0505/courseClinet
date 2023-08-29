@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 
-const USERAPIURL = "http://localhost:8080/api/user"
-// const USERAPIURL = "https://courseserver-jxx6.onrender.com/api/user"
+// const USERAPIURL = "http://localhost:8080/api/user"
+const USERAPIURL = "https://courseserver-jxx6.onrender.com/api/user"
 
 
 class UserService {

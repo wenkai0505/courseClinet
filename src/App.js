@@ -19,8 +19,8 @@ import './css/default.css'
 
 
 const App = () => {
-  let APIURL = "http://localhost:8080/"
-  // let APIURL = "https://courseserver-jxx6.onrender.com/"
+  // let APIURL = "http://localhost:8080/"
+  let APIURL = "https://courseserver-jxx6.onrender.com/"
   let [currentUser, setCurrentUser] = useState(UserService.getCurrentUser)
   console.log(currentUser)
 

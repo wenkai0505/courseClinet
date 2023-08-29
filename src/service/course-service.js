@@ -1,10 +1,10 @@
 import axios from 'axios'
 
 
-const COURSEURL = 'http://localhost:8080/api/course'
-const FILTERCOURSEAPIURL = 'http://localhost:8080/api/filterCourse'
-// const COURSEURL = 'https://courseserver-jxx6.onrender.com/api/course'
-// const FILTERCOURSEAPIURL = 'https://courseserver-jxx6.onrender.com/api/filterCourse'
+// const COURSEURL = 'http://localhost:8080/api/course'
+// const FILTERCOURSEAPIURL = 'http://localhost:8080/api/filterCourse'
+const COURSEURL = 'https://courseserver-jxx6.onrender.com/api/course'
+const FILTERCOURSEAPIURL = 'https://courseserver-jxx6.onrender.com/api/filterCourse'
 
 
 
